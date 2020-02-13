@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorSegment should render correctly as null with no error 1`] = `""`;
+
+exports[`ErrorSegment should render correctly with error 1`] = `
+<Segment
+  color="red"
+  inverted={true}
+>
+  Some error happened
+</Segment>
+`;

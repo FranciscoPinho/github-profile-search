@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard should render correctly as null with no user 1`] = `""`;
+
+exports[`UserCard should render correctly with user 1`] = `
+<UserCard
+  user={
+    Object {
+      "email": "example@gmail.com",
+      "location": "Porto, Portugal",
+      "name": "FranciscoPinho",
+      "profileImage": "https://identicons.github.com/jasonlong.png",
+      "profileLink": "testLink",
+    }
+  }
+>
+  <Card>
+    <div
+      className="ui card"
+      onClick={[Function]}
+    >
+      <Image
+        as="img"
+        src="https://identicons.github.com/jasonlong.png"
+        ui={false}
+        wrapped={true}
+      >
+        <div
+          className="image"
+        >
+          <img
+            src="https://identicons.github.com/jasonlong.png"
+          />
+        </div>
+      </Image>
+      <CardContent>
+        <div
+          className="content"
+        >
+          <CardHeader>
+            <div
+              className="header"
+            >
+              FranciscoPinho
+            </div>
+          </CardHeader>
+          <CardDescription>
+            <div
+              className="description"
+            >
+              <ItemLine
+                icon="map marker alternate"
+                item="Porto, Portugal"
+              >
+                <p>
+                  <Icon
+                    as="i"
+                    name="map marker alternate"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="map marker alternate icon"
+                      onClick={[Function]}
+                    />
+                  </Icon>
+                   
+                  Porto, Portugal
+                   
+                </p>
+              </ItemLine>
+              <ItemLine
+                icon="mail"
+                item="example@gmail.com"
+              >
+                <p>
+                  <Icon
+                    as="i"
+                    name="mail"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="mail icon"
+                      onClick={[Function]}
+                    />
+                  </Icon>
+                   
+                  example@gmail.com
+                   
+                </p>
+              </ItemLine>
+              <ItemLine
+                icon="linkify"
+                item="testLink"
+                link={true}
+              >
+                <a
+                  href="testLink"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Icon
+                    as="i"
+                    name="linkify"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="linkify icon"
+                      onClick={[Function]}
+                    />
+                  </Icon>
+                   
+                  testLink
+                   
+                </a>
+              </ItemLine>
+            </div>
+          </CardDescription>
+        </div>
+      </CardContent>
+    </div>
+  </Card>
+</UserCard>
+`;
+
+exports[`UserCard should render correctly with user without email attribute 1`] = `
+<Card>
+  <Image
+    as="img"
+    src="https://identicons.github.com/jasonlong.png"
+    ui={false}
+    wrapped={true}
+  />
+  <CardContent>
+    <CardHeader>
+      FranciscoPinho
+    </CardHeader>
+    <CardDescription>
+      <ItemLine
+        icon="map marker alternate"
+        item="Porto, Portugal"
+      />
+      <ItemLine
+        icon="linkify"
+        item="testLink"
+        link={true}
+      />
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
+
+exports[`UserCard should render correctly with user without location attribute 1`] = `
+<Card>
+  <Image
+    as="img"
+    src="https://identicons.github.com/jasonlong.png"
+    ui={false}
+    wrapped={true}
+  />
+  <CardContent>
+    <CardHeader>
+      FranciscoPinho
+    </CardHeader>
+    <CardDescription>
+      <ItemLine
+        icon="mail"
+        item="example@gmail.com"
+      />
+      <ItemLine
+        icon="linkify"
+        item="testLink"
+        link={true}
+      />
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
+
+exports[`UserCard should render correctly with user without name attribute 1`] = `
+<Card>
+  <Image
+    as="img"
+    src="https://identicons.github.com/jasonlong.png"
+    ui={false}
+    wrapped={true}
+  />
+  <CardContent>
+    <CardDescription>
+      <ItemLine
+        icon="map marker alternate"
+        item="Porto, Portugal"
+      />
+      <ItemLine
+        icon="mail"
+        item="example@gmail.com"
+      />
+      <ItemLine
+        icon="linkify"
+        item="testLink"
+        link={true}
+      />
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
+
+exports[`UserCard should render correctly with user without profileImage attribute 1`] = `
+<Card>
+  <CardContent>
+    <CardHeader>
+      FranciscoPinho
+    </CardHeader>
+    <CardDescription>
+      <ItemLine
+        icon="map marker alternate"
+        item="Porto, Portugal"
+      />
+      <ItemLine
+        icon="mail"
+        item="example@gmail.com"
+      />
+      <ItemLine
+        icon="linkify"
+        item="testLink"
+        link={true}
+      />
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
+
+exports[`UserCard should render correctly with user without profileLink attribute 1`] = `
+<Card>
+  <Image
+    as="img"
+    src="https://identicons.github.com/jasonlong.png"
+    ui={false}
+    wrapped={true}
+  />
+  <CardContent>
+    <CardHeader>
+      FranciscoPinho
+    </CardHeader>
+    <CardDescription>
+      <ItemLine
+        icon="map marker alternate"
+        item="Porto, Portugal"
+      />
+      <ItemLine
+        icon="mail"
+        item="example@gmail.com"
+      />
+    </CardDescription>
+  </CardContent>
+</Card>
+`;
