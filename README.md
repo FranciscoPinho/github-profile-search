@@ -1,7 +1,7 @@
 Demo Video: https://drive.google.com/open?id=1cdmg6xEVzPAs3_SnmbbdZ5ojaXt2WsCP
 ## How to run
 
-Firstly Clone the repository. Then in the project directory, you can run:
+Firstly clone the repository. Then in the project directory, do `npm install` and afterwards one can run:
 
 ### `npm start`
 
